@@ -1,0 +1,38 @@
+body{
+    background-color: #002339;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: Arial;
+}
+.first-text{
+    font-size: 45px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0;
+}
+.second-text{
+    color:#019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+.input-box{
+    padding: 15px;
+    width: 450px;
+}
+button{
+    padding:12px;
+    background-color: #019f55;
+    counter-reset: #fff;
+    width:225px;
+    border: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #317b57;
+}
+input{
+    font-size: 24px;
+    font-weight: 500;
+}
